@@ -2,7 +2,7 @@
 
 ##Fast setup React Native
 
-```
+```json
 {
   "workbench.colorTheme": "Dracula Soft",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -119,4 +119,46 @@
     }
   ]
 }
+```
+##Extensios
+
+```shell
+code --install-extension aaron-bond.better-comments
+code --install-extension alefragnani.project-manager
+code --install-extension apollographql.vscode-apollo
+code --install-extension bradlc.vscode-tailwindcss
+code --install-extension ChakrounAnas.turbo-console-log
+code --install-extension christian-kohler.path-intellisense
+code --install-extension codezombiech.gitignore
+code --install-extension dbaeumer.vscode-eslint
+code --install-extension donjayamanne.git-extension-pack
+code --install-extension donjayamanne.githistory
+code --install-extension DotJoshJohnson.xml
+code --install-extension dracula-theme.theme-dracula
+code --install-extension dzannotti.vscode-babel-coloring
+code --install-extension eamodio.gitlens
+code --install-extension esbenp.prettier-vscode
+code --install-extension formulahendry.auto-rename-tag
+code --install-extension GitHub.copilot
+code --install-extension GraphQL.vscode-graphql
+code --install-extension GraphQL.vscode-graphql-syntax
+code --install-extension Kasik96.swift
+code --install-extension kumar-harsh.graphql-for-vscode
+code --install-extension lostintangent.vsls-whiteboard
+code --install-extension mathiasfrohlich.Kotlin
+code --install-extension mikestead.dotenv
+code --install-extension ms-vsliveshare.vsliveshare
+code --install-extension msjsdiag.vscode-react-native
+code --install-extension naumovs.color-highlight
+code --install-extension NomicFoundation.hardhat-solidity
+code --install-extension Orta.vscode-jest
+code --install-extension redhat.vscode-yaml
+code --install-extension seunlanlege.action-buttons
+code --install-extension sirmspencer.vscode-autohide
+code --install-extension spywhere.guides
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension streetsidesoftware.code-spell-checker-russian
+code --install-extension TTOOWA.in-your-face-incredible
+code --install-extension xabikos.JavaScriptSnippets
+code --install-extension ziyasal.vscode-open-in-github
 ```
