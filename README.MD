@@ -1,6 +1,6 @@
-# Setup
+# Fast setup Visual Studio Code (React Native)
 
-## Fast setup Visual Studio Code (React Native)
+## settings.json
 
 ```json
 {
