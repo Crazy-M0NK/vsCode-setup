@@ -163,8 +163,6 @@ code --install-extension ziyasal.vscode-open-in-github
 ```
 # App init
 
- - 
-
 ## .eslintrc.json
 
 ```json
@@ -245,7 +243,7 @@ code --install-extension ziyasal.vscode-open-in-github
   }
 }
 ```
-## .orettierrc.js
+## .prettierrc.js
 
 ```js
 module.exports = {
