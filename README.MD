@@ -1,6 +1,8 @@
 #Setup
 
 ##Fast setup React Native
+
+```
 {
   "workbench.colorTheme": "Dracula Soft",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -117,3 +119,4 @@
     }
   ]
 }
+```
