@@ -42,6 +42,11 @@ path: {any path to vscode}/Code/User
         "name": "💠 Run Metro (Full Clear Cache)",
         "color": "#25C7ED",
         "command": "rm -f yarn.lock && cd android && ./gradlew clean && cd .. && yarn && yarn start"
+      },
+      {
+        "name": "📲 Release build ",
+        "color": "#ffcd17",
+        "command": "yarn android-build"
       }
     ]
   },
@@ -59,13 +64,8 @@ path: {any path to vscode}/Code/User
   "react-native-tools.showUserTips": false,
   "window.zoomLevel": 1,
   "cSpell.userWords": [
-    "рэтхолинга",
-    "clubpokerspace",
-    "esbenp",
     "gradlew",
-    "Pressable",
     "rrect",
-    "tektur"
   ],
   "extensions.ignoreRecommendations": true,
   "gitlens.advanced.messages": {
