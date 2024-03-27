@@ -1,6 +1,6 @@
-#Setup
+# Setup
 
-##Fast setup React Native
+## Fast setup React Native
 
 ```json
 {
@@ -120,7 +120,7 @@
   ]
 }
 ```
-##Extensios
+## Extensios
 
 ```shell
 code --install-extension aaron-bond.better-comments
