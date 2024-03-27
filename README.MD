@@ -1,6 +1,7 @@
 # Fast setup Visual Studio Code (React Native)
 
 ## settings.json
+path: {any path to vscode}/Code/User
 
 ```json
 {
