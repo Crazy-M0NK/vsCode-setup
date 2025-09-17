@@ -1,11 +1,11 @@
-# Fast setup Visual Studio Code (React Native)
+# Fast setup Visual Studio Code (React/React Native)
 
 ## settings.json
 path: {any path to vscode}/Code/User
 
 ```json
 {
-  "workbench.colorTheme": "Dracula Soft",
+  "workbench.colorTheme": "Dracula Theme Soft",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
   "editor.suggestSelection": "first",
@@ -26,6 +26,7 @@ path: {any path to vscode}/Code/User
     "defaultColor": "#ff0034", // Can also use string color names.
     "loadNpmCommands": false, // Disables automatic generation of actions for npm commands.
     "reloadButton": "♻️", // Custom reload button text or icon (default ↻). null value enables automatic reload on configuration change
+  //Only for Raect-Native
     "commands": [
       {
         "name": "Ⓜ️ Run metro (no-cache)",
@@ -62,11 +63,7 @@ path: {any path to vscode}/Code/User
   "javascript.updateImportsOnFileMove.enabled": "always",
   "explorer.confirmDragAndDrop": false,
   "react-native-tools.showUserTips": false,
-  "window.zoomLevel": 1,
-  "cSpell.userWords": [
-    "gradlew",
-    "rrect",
-  ],
+  "window.zoomLevel": 0.5,
   "extensions.ignoreRecommendations": true,
   "gitlens.advanced.messages": {
     "suppressCreatePullRequestPrompt": true
@@ -117,49 +114,90 @@ path: {any path to vscode}/Code/User
       "backgroundColor": "transparent",
       "bold": false,
       "italic": false
+    },
+    {
+      "tag": ">",
+      "color": "#990FBE",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
     }
-  ]
+  ],
+  "git.autofetch": true,
+  "gitlens.launchpad.indicator.polling.interval": 15,
+  "gitlens.launchpad.indicator.useColors": true,
+  "gitlens.graph.layout": "editor",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "eslint.codeActionsOnSave.rules": null,
+  "eslint.execArgv": null,
+  "eslint.workingDirectories": [],
+  "window.customTitleBarVisibility": "auto",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.editorAssociations": {
+    "{git,gitlens}:/**/*.{md,csv,svg}": "default",
+    "*.svg": "default"
+  },
+  "explorer.confirmPasteNative": false,
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "python.defaultInterpreterPath": "/bin/python3.12",
+  "tailwindCSS.includeLanguages": {
+    "css": "css",
+    "postcss": "css",
+    "scss": "css",
+    "javascript": "javascript",
+    "javascriptreact": "javascript",
+    "typescript": "typescript",
+    "typescriptreact": "typescript"
+  }
 }
 ```
 ## Extensios
 
 ```shell
-code --install-extension aaron-bond.better-comments
-code --install-extension alefragnani.project-manager
-code --install-extension chakrounanas.turbo-console-log
-code --install-extension christian-kohler.path-intellisense
-code --install-extension codezombiech.gitignore
-code --install-extension dbaeumer.vscode-eslint
-code --install-extension donjayamanne.git-extension-pack
-code --install-extension donjayamanne.githistory
-code --install-extension dotjoshjohnson.xml
-code --install-extension dracula-theme.theme-dracula
-code --install-extension dzannotti.vscode-babel-coloring
-code --install-extension eamodio.gitlens
-code --install-extension esbenp.prettier-vscode
-code --install-extension mathiasfrohlich.kotlin
-code --install-extension mikestead.dotenv
-code --install-extension ms-azuretools.vscode-docker
-code --install-extension ms-python.debugpy
-code --install-extension ms-python.python
-code --install-extension ms-python.vscode-pylance
-code --install-extension msjsdiag.vscode-react-native
-code --install-extension naumovs.color-highlight
-code --install-extension redhat.java
-code --install-extension redhat.vscode-yaml
-code --install-extension seunlanlege.action-buttons
-code --install-extension simonsiefke.svg-preview
-code --install-extension spywhere.guides
-code --install-extension streetsidesoftware.code-spell-checker
-code --install-extension streetsidesoftware.code-spell-checker-russian
-code --install-extension visualstudioexptteam.intellicode-api-usage-examples
-code --install-extension visualstudioexptteam.vscodeintellicode
-code --install-extension vscjava.vscode-gradle
-code --install-extension vscjava.vscode-java-dependency
-code --install-extension vscjava.vscode-java-pack
-code --install-extension vscjava.vscode-maven
-code --install-extension xabikos.javascriptsnippets
-code --install-extension ziyasal.vscode-open-in-github
+
+ext install aaron-bond.better-comments
+ext install chakrounanas.turbo-console-log
+ext install christian-kohler.path-intellisense
+ext install codezombiech.gitignore
+ext install dbaeumer.vscode-eslint
+ext install donjayamanne.git-extension-pack
+ext install dotjoshjohnson.xml
+ext install dracula-theme.theme-dracula
+ext install dzannotti.vscode-babel-coloring
+ext install eamodio.gitlens
+ext install esbenp.prettier-vscode
+ext install mathiasfrohlich.kotlin
+ext install mikestead.dotenv
+ext install ms-azuretools.vscode-docker
+ext install ms-python.debugpy
+ext install ms-python.python
+ext install ms-python.vscode-python-envs
+ext install ms-python.vscode-pylance
+ext install msjsdiag.vscode-react-native
+ext install naumovs.color-highlight
+ext install redhat.java
+ext install redhat.vscode-yaml
+ext install seunlanlege.action-buttons
+ext install simonsiefke.svg-preview
+ext install bradlc.vscode-tailwindcss
+ext install spywhere.guides
+ext install streetsidesoftware.code-spell-checker
+ext install streetsidesoftware.code-spell-checker-russian
+ext install visualstudioexptteam.intellicode-api-usage-examples
+ext install visualstudioexptteam.vscodeintellicode
+ext install vscjava.vscode-gradle
+ext install vscjava.vscode-java-dependency
+ext install vscjava.vscode-java-pack
+ext install vscjava.vscode-maven
+ext install xabikos.javascriptsnippets
+ext install ziyasal.vscode-open-in-github
+ext install ms-azuretools.vscode-containers
+ext install mhutchie.git-graph
 ```
 # App init
 
